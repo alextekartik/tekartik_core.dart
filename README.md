@@ -1,4 +1,3 @@
-tekartik_core.dart
-==================
+# tekartik_core
 
-Core development files (log and dev tools)
+A minimal command-line application.

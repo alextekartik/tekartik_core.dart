@@ -1,0 +1,9 @@
+name: tekartik_core
+version: 0.0.1
+description: A minimal command-line application.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  logging: any
+dev_dependencies:
+  unittest: any
