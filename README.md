@@ -1,3 +1,3 @@
 # tekartik_core
 
-A minimal command-line application.
+Core tekartik utilities

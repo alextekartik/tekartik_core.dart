@@ -7,3 +7,6 @@ dependencies:
   logging: any
 dev_dependencies:
   unittest: any
+  tekartik_test:
+      git: git://github.com/alextekartik/tekartik_test.dart
+
