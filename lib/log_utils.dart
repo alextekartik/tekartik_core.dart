@@ -20,7 +20,7 @@ setupQuickLogging([Level level]) {
     _PrintHandler handler = new _PrintHandler();
     Logger.root.onRecord.listen((LogRecord logRecord) {
       handler.call(logRecord);
-      
+
     });
     _quickLoggingSetup = true;
   }
@@ -28,7 +28,7 @@ setupQuickLogging([Level level]) {
     Logger.root.level = level;
     //log.info("QuickLoggingSetup");
   }
-  
+
 }
 
 class _PrintHandler {
@@ -74,9 +74,9 @@ String _stringPrefilled(String text, int len, String char) {
 String formatTimestampMs(num timestamp) {
   int size = 6;
   String txt;
-  
+
   if (timestamp == null) {
-    return _stringPrefilled('(null)', 6, ' ');  
+    return _stringPrefilled('(null)', 6, ' ');
   } else {
     int s = (timestamp ~/ 1000);
     int ms = (timestamp - s * 1000).round();
@@ -94,9 +94,9 @@ String formatTimestampMs(num timestamp) {
 String format0To1AsPercent(num value) {
   int size = 6;
   String txt;
-  
+
   if (value == null) {
-    return _stringPrefilled('(nul)', 5, ' ');  
+    return _stringPrefilled('(nul)', 5, ' ');
   } else {
     num per10000 = value * 10000;
     int per100 = per10000 ~/ 100;
