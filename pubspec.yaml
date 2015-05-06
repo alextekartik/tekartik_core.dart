@@ -1,14 +1,9 @@
 name: tekartik_core
-version: 0.0.1
-description: A minimal command-line application.
+version: 0.0.3
+description: Core tekartik utilities
 environment:
   sdk: '>=1.0.0 <2.0.0'
 dependencies:
   logging: any
 dev_dependencies:
-  unittest: any
-  tekartik_test:
-    git: git://github.com/alextekartik/tekartik_test.dart
-dependency_overrides: 
-#  tekartik_test:
-#    path: ../tekartik_test.dart
+  test: any

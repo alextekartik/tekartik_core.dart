@@ -1,6 +1,6 @@
 library hash_code_utils_tests;
 
-import 'package:unittest/unittest.dart';
+import 'package:test/test.dart';
 //import 'package:unittest/vm_config.dart';
 import 'package:tekartik_core/hash_code_utils.dart';
 
