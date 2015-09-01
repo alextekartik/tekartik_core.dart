@@ -1,5 +1,5 @@
 name: tekartik_core
-version: 0.0.3
+version: 0.0.4
 description: Core tekartik utilities
 environment:
   sdk: '>=1.0.0 <2.0.0'
