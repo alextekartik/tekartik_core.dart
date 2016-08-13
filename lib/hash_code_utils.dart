@@ -1,3 +1,4 @@
-library hash_code_utils;
+@deprecated
+library hash_code_utils_deprecated;
 
-int safeHashCode(dynamic object) => object == null ? 0 : object.hashCode;
+export 'package:tekartik_common_utils/hash_code_utils.dart';

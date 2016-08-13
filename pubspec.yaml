@@ -5,5 +5,7 @@ environment:
   sdk: '>=1.0.0 <2.0.0'
 dependencies:
   logging: any
+  tekartik_common_utils:
+    git: git://github.com/tekartik/tekartik_common_utils.dart
 dev_dependencies:
   test: any
