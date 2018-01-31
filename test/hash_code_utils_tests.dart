@@ -2,6 +2,7 @@ library hash_code_utils_tests;
 
 import 'package:test/test.dart';
 //import 'package:unittest/vm_config.dart';
+// ignore: deprecated_member_use
 import 'package:tekartik_core/hash_code_utils.dart';
 
 main() {
@@ -13,7 +14,4 @@ main() {
       expect(safeHashCode("hi".hashCode), "hi".hashCode);
     });
   });
-
-
-
 }

@@ -3,6 +3,7 @@ library log_utils_test;
 import 'package:test/test.dart';
 //import 'package:unittest/vm_config.dart';
 import 'package:logging/logging.dart' as log;
+// ignore: deprecated_member_use
 import 'package:tekartik_core/log_utils.dart';
 
 void main() => defineTests();
@@ -44,6 +45,4 @@ void defineTests() {
       expect(format0To1AsPercent(0.99999), equals('100.0'));
     });
   });
-
-
 }
