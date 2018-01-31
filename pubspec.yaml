@@ -1,11 +1,17 @@
 name: tekartik_core
-version: 0.1.0
+version: 0.2.0
 description: Core tekartik utilities
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=1.24.0 <2.0.0'
 dependencies:
   logging: any
   tekartik_common_utils:
     git: git://github.com/tekartik/common_utils.dart
+    version: ">0.4.0"
 dev_dependencies:
   test: any
+  grinder: any
+  tekartik_build_utils:
+    git: git://github.com/tekartik/build_utils.dart
+
+
